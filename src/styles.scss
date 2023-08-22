@@ -1,13 +1,25 @@
 :root {
-    --primary-bg-color: white;
+    --primary-bg-color: #f8f9fa;
     --primary-text-color: black;
   }
+
+//   secondary background white (modals) #ffffff
+//   primary color: #34d399
+//   secondary color: #3b82f6
+//   accent: #ec6e14e8
+//   subtext color: #666666
   
   [data-theme='dark'] {
-    --primary-bg-color: black;
-    --primary-text-color: white;
+    --primary-bg-color: #252a30;
+    --primary-text-color: #e0e0e0;
   }
-  
+
+// secondary background dark: #1a1f24
+//  primary color dark: #34d399
+//  secondary color dark: #3b82f6
+//  accent color dark: #ec6e14e8
+//  subtext color dark: #b0b0b0
+
   body {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
