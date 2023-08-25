@@ -1,2 +1,4 @@
 # vitasort-ui
-A simple supplement sort and search website
+A simple health supplement sort and search website - work in progress
+
+Hours worked counter: 3
