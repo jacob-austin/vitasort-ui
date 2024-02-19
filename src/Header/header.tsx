@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTheme } from '../Utilities/theme-context';
+import logo from '../logo.svg';
 import './header.scss';
 
 function Header() {
@@ -10,9 +11,7 @@ function Header() {
   return (
     <header>
       <div className="logo-container">
-        {/* Wrap the logo in a Link component */}
         <Link to="/">
-          {/* This is a placeholder. Replace this div with your SVG logo */}
           <div className="logo-placeholder">LOGO</div>
         </Link>
       </div>
